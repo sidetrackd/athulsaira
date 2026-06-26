@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+@font-face {
+  font-family: 'Sidetrackd';
+  src: url('assets/Sidetrackd-Regular.otf') format('otf'),
+    url('assets/Sidetrackd-Regular.ttf') format('truetype');
+}
+
+:root {
+  --color-dark-1: #4f0911;
+  --color-dark-2: #260607;
+  --color-light-1: #faf1ec;
+  --color-light-2: #e4cec1;
+  --color-light-3: #916066;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.goudy-regular {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goudy-italic {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* reset all default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  will-change: width, height;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sorts Mill Goudy";
+}
+
+.scroller {
+  /* overflow-y: auto; */
+  /* scroll-snap-type: y mandatory; */
+  /* scroll-behavior: smooth; */
+}
+
+.scoller section {
+  /* scroll-snap-align: start; */
+}
+
+.snapable {}
+
+#hero {
+  background-color: var(--color-light-1);
+}
+
+#married {
+  /* top: 50%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #athul_saira_svg {
+    width: 95vw;
+    fill: var(--color-dark-1);
+  }
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vw;
+  background-color: var(--color-dark-2);
+  color: var(--color-light-1);
+  font-family: "Sorts Mill Goudy";
+  font-size: clamp(32px, 2.5vw, 40px);
+}
+
+#ending {
+  #athul_saira_monogram_svg {
+    width: 20vw;
+  }
+}
+
+#rsvp {
+  align-items: flex-start;
+}
