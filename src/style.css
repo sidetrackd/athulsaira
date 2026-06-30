@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
-@font-face {
-  font-family: 'Sidetrackd';
-  src: url('assets/Sidetrackd-Regular.otf') format('otf'),
-    url('assets/Sidetrackd-Regular.ttf') format('truetype');
-}
-
 :root {
   --color-dark-1: #4f0911;
   --color-dark-2: #260607;
@@ -91,5 +85,5 @@ section {
 }
 
 #rsvp {
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
