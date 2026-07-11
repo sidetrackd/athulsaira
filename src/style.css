@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
 
 @font-face {
-  font-family: 'Sidetrackd';
-  src: url('assets/Sidetrackd-Regular.otf') format('otf'),
-    url('assets/Sidetrackd-Regular.ttf') format('truetype');
+  font-family: "Saira Numerals";
+  src: url(assets/Saira-Numerals.ttf);
+}
+
+@media screen and (width <= 800px) {
+  #countdown {
+    display: flex;
+    flex-direction: column;
+    /* width: 70vw; */
+    /* height: 300px; */
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+  }
 }
 
 :root {
@@ -35,8 +46,17 @@
   box-sizing: border-box;
 }
 
+html {
+  cursor: url('/src/assets/arrow.svg'), auto;
+}
+
+a:hover {
+  cursor: url('/src/assets/arrow.svg'), auto;
+}
+
 section {
   display: flex;
+  flex-direction: column;
   height: 100vh;
   will-change: width, height;
   overflow: hidden;
@@ -58,38 +78,132 @@ section {
 .snapable {}
 
 #hero {
-  background-color: var(--color-light-1);
+  position: relative;
+  /* background-color: var(--color-light-1); */
 }
 
-#married {
-  /* top: 50%; */
+nav {
+  position: absolute;
+  top: 20%;
+  width: max-content;
+  height: fit-content;
+  z-index: 2;
+  /* background-color: aqua; */
   display: flex;
-  align-items: center;
   justify-content: center;
+  text-transform: uppercase;
+  font-weight: 600;
 
-  #athul_saira_svg {
-    width: 95vw;
-    fill: var(--color-dark-1);
+  a {
+    padding: 1vw;
+    text-decoration: none;
+
+    color: var(--color-light-3);
+
+    img {
+      width: 70%;
+    }
   }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px;
+    text-decoration-style: dashed;
+
+  }
+}
+
+#athul_saira_svg {
+  position: absolute;
+  width: 90vw;
+  height: fit-content;
+  fill: var(--color-dark-1);
+}
+
+.page-title {
+  display: block;
+  position: relative;
+  top: 1px;
+  font-size: 2em;
+  padding: 2%;
+  background-color: aqua;
 }
 
 #about {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10vw;
+  padding: 0 7vw 0 7vw;
   background-color: var(--color-dark-2);
   color: var(--color-light-1);
   font-family: "Sorts Mill Goudy";
   font-size: clamp(32px, 2.5vw, 40px);
 }
 
-#ending {
-  #athul_saira_monogram_svg {
-    width: 20vw;
+#when {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  #date_svg {
+    width: 50vw;
+    height: fit-content;
   }
 }
 
+#countdown {
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blue; */
+}
+
+.cd-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  padding: 2%;
+  margin: 1%;
+  min-width: 25%;
+  height: fit-content;
+}
+
+.cd-value {
+  font-family: "Saira Numerals";
+  font-size: 7em;
+}
+
+.cd-label {
+  font-size: 2em;
+}
+
+#ending {}
+
+#athul_saira_monogram_svg {
+  width: 20vw;
+}
+
+#when {}
+
+.page-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.map {
+  border: 5px dashed var(--color-light-3);
+}
+
 #rsvp {
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
