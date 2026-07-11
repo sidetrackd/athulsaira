@@ -12,19 +12,19 @@ lenis.on("scroll", ScrollTrigger.update);
 gsap.ticker.add((time) => lenis.raf(time * 1000));
 gsap.ticker.lagSmoothing(0);
 
-SplitText.create(".split", {
-    type: "lines, words",
-    mask: "lines",
-    autoSplit: true,
-    onSplit(self) {
-        return gsap.from(self.words, {
-            duration: 1,
-            y: 100,
-            autoAlpha: 0,
-            stagger: 0.05
-        });
-    }
-});
+// SplitText.create(".split", {
+//     type: "lines, words",
+//     mask: "lines",
+//     autoSplit: true,
+//     onSplit(self) {
+//         return gsap.from(self.words, {
+//             duration: 1,
+//             y: 100,
+//             autoAlpha: 0,
+//             stagger: 0.05
+//         });
+//     }
+// });
 
 let sections = gsap.utils.toArray(".snapable");
 
