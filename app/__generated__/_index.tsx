@@ -1,0 +1,383 @@
+/* eslint-disable */
+      /* This is a auto generated file for building the project */ 
+
+
+      import { Fragment, useState } from "react";
+      import { renderText, useResource, useVariableState } from "@webstudio-is/react-sdk/runtime";
+      import { Body as Body, Link as Link } from "@webstudio-is/sdk-components-react-router";
+import { HtmlEmbed as HtmlEmbed, Fragment as Fragment_1, Slot as Slot, Image as Image } from "@webstudio-is/sdk-components-react/components";
+
+
+      export const projectId = "abefc540-959f-463e-a31f-49b2cf9acd9f";
+
+      export const projectDomain = "athulsaira-rihwv";
+
+      export const lastPublished = "2026-07-21T09:50:35.976Z";
+
+      export const siteName = "Athul + Saira";
+
+      export const breakpoints = [{"id":"_DGcndh91J2REWb_w-VY4"},{"id":"LvGjTWMmX6EhBYMuhodgU","maxWidth":1024},{"id":"tYPV3BXGhQw_bZHkrBgLS","maxWidth":768},{"id":"py0TwqTbBdS-iZZEWWXno","maxWidth":640},{"id":"91k9f89YYQ5bFEzg6Cob1","minWidth":1280},{"id":"MYrSsHztdqk2yRhKGuKar","minWidth":1536}];
+
+      export const favIconAsset: string | undefined =
+        "cursive-monogram-colour-with-bg_o_fXD27qvEGkw7xFPHWPq.svg";
+
+      // Font assets on current page (can be preloaded)
+      export const pageFontAssets: string[] =
+        ["PlaywriteIE-VariableFont_wght_aAxnsRsolYF0X4Jwe-3yI.ttf","Saira-Numerals_B4YS8SX6GKVNOiwqhM9tZ.ttf","SortsMillGoudy-Italic_LPFSBPfCC8JnAMjbOLbyq.ttf","SortsMillGoudy-Regular_GwY95pS6nSCMoqmmJLH2g.ttf"]
+
+      export const pageBackgroundImageAssets: string[] =
+        ["olga-thelavart-vS3idIiYxX0-unsplash_MaZMcMlQHO2xmfX2HebnG.jpg","heather-green-hKfKmfvPY44-unsplash-large_1LitLRWP3xlxWBvG-HFeX.jpg"]
+
+      
+            
+
+            export const CustomCode = () => {
+              return (<></>);
+            }
+          
+
+      const Page = (_props: { system: any; }) => {
+return <Body
+className={`w-element c1ngz0j1 c1j2pr82 c1yp71vy c1e10ofn c1opwiy5 c1sb0d0 c1wwh0ud`}>
+<Slot>
+<Fragment_1>
+<aside
+id={"bgElem-container"}
+className={`w-element chkplf5 c1kikmo8 cxna78f c1b1csm9 c9ezh0`}>
+<Image
+src={"/assets/star-1_buS26ZVBH6AGIaCCXNl_T.svg"}
+width={65}
+height={105}
+alt={""}
+id={"star-1"}
+className={`w-image`} />
+<Image
+src={"/assets/star-2_J9RXGgHsduU7Z--6LFl8H.svg"}
+width={70}
+height={102}
+alt={""}
+id={"star-2"}
+className={`w-image`} />
+<Image
+src={"/assets/star-3_RB9dTBmBprcJ5hy0jXjRA.svg"}
+width={66}
+height={105}
+alt={""}
+id={"star-3"}
+className={`w-image`} />
+<Image
+src={"/assets/star-4_z-ePAybVeyXPUaCqrY7Q1.svg"}
+width={48}
+height={58}
+alt={""}
+id={"star-4"}
+className={`w-image`} />
+<Image
+src={"/assets/star-5_cH9f3hAiDPd_-FpgHAiov.svg"}
+width={51}
+height={68}
+alt={""}
+id={"star-5"}
+className={`w-image`} />
+<Image
+src={"/assets/heart-1_Hy0Ey8DJMn8vX0fRw126J.svg"}
+width={49}
+height={54}
+alt={""}
+className={`w-image`} />
+<Image
+src={"/assets/heart-2_24ZIDyjSntbWKVAFFYbBA.svg"}
+width={54}
+height={53}
+alt={""}
+className={`w-image`} />
+<Image
+src={"/assets/heart-3_gDmwQOCzUcrtisHph4fn4.svg"}
+width={61}
+height={64}
+alt={""}
+className={`w-image`} />
+<HtmlEmbed
+code={"<style>\n#bgElem-container {\n  pointer-events: none;\n}\n\n.bgElem {\n  position: absolute;\n  width: 20px; /* Adjust based on your SVG size */\n  height: auto;\n  opacity: 0; /* Start hidden for animation */\n  animation: twinkle ease-in-out infinite;\n  mix-blend-mode: difference;\n}\n\n@keyframes twinkle {\n  0%, {\n    opacity: 0;\n    transform: scale(1);\n  }\n  50% {\n    opacity: 0.8;\n    transform: scale(1.1);\n  }\n  100% {\n    opacity: 0;\n    transform: scale(1);\n  }\n}\n</style>\n<script>\ndocument.addEventListener('DOMContentLoaded', () => {\n  const container = document.getElementById('bgElem-container');\n  const bgElemCount = 120; // Number of elements\n\n  const bgElemRef = Array.from(container.querySelectorAll('img'));\n\n  if (bgElemRef.length === 0) return;\n\n  while (container.querySelectorAll('img').length < bgElemCount) {\n    const randomRef = bgElemRef[Math.floor(Math.random() * bgElemRef.length)];\n    const clone = randomRef.cloneNode(true);\n\n    clone.style = '';\n    container.appendChild(clone);\n  }\n\n  const allBgElems = container.querySelectorAll('img');\n\n  container.style.display = 'block';\n  container.style.position = 'absolute';\n  container.style.top = '0';\n  container.style.left = '0';\n  container.style.width = '100%';\n  container.style.height = '100%';\n  container.style.zIndex = '1';\n  container.style.pointerEvents = 'none';\n\n  const initializeElem = img => {\n    img.classList.add('bgElem');\n    img.style.position = 'absolute';\n    img.style.animationDuration = `${2 + Math.random() * 3}s`;\n    img.style.animationDelay = `${Math.random() * 2}s`;\n    img.style.animationTimingFunction = 'cubic-bezier(0.65, 0, 0.35, 1)';\n    const scale = 0.6 + Math.random() * 1.5;\n    const rotation = (Math.random() * 40) - 20;\n    img.style.transform = `rotate(${rotation}deg) scale(${scale})`;\n  };\n\n  const positionElements = () => {\n    const sections = document.querySelectorAll(\"section\");\n    let sumOfHeights = 0;\n    for (const sec of sections) {\n      sumOfHeights += sec.offsetHeight || sec.getBoundingClientRect().height || 0;\n    }\n\n    const viewportWidth = document.documentElement.clientWidth;\n    const viewportHeight = sumOfHeights;\n\n    allBgElems.forEach(img => {\n      img.style.left = `${Math.random() * viewportWidth}px`;\n      img.style.top = `${Math.random() * viewportHeight}px`;\n    });\n  };\n\n  allBgElems.forEach(initializeElem);\n  positionElements();\n  window.addEventListener('resize', positionElements);\n});\n</script>"}
+clientOnly={true}
+className={`w-html-embed`} />
+</aside>
+</Fragment_1>
+</Slot>
+<Slot>
+<Fragment_1>
+<div
+className={`w-element cw035ua cbu9hsu c18gcn3d c1ciya14 c9ec481 c1nlsp8h c2c8m88 c1gccmu4 chapbom c1dkagqf c1ngz0j1 c1tz0jf4 c1gwrb19 c1bd8b7m c1jv8spi c5kbhcc cngro6d c56bmm2 c1mt26gn c81kb1u cy6w0f8 cx0sry4 c1urz1l4 c34nlew cm9w0fj c1lt64lp c1vjchr`}>
+<div
+className={`w-element c1izoes8 c1gccmu4 c1vxbebg cyyeyec c1nkt75d c1l8m8v8 c1ouinbj c1foopxb c1mvbqfz c1sv0dmj c4ybo7z cc6lw1i c15ldk6b`}>
+<Link
+href={"/"}
+className={`w-element ccsz1cw chm4zy5 c1ouinbj c1e3et87 c1izoes8 c1pazqdt c1in4j3g cinicg8 c6ampsg cgwish1 cwb9fzk c1kp9tpa cjbqlue c69i0qc c14ecruh c8a0f18 cf7qvpa`}>
+<span
+className={`w-element`}>
+{"Home"}
+</span>
+</Link>
+<Link
+href={"/#when"}
+target={"_self"}
+className={`w-element ccsz1cw chm4zy5 c1ouinbj c1e3et87 c1izoes8 c1pazqdt c1in4j3g cinicg8 c6ampsg cgwish1 cwb9fzk c1kp9tpa cjbqlue c69i0qc c14ecruh c8a0f18 cf7qvpa`}>
+<span
+className={`w-element`}>
+{"When?"}
+</span>
+</Link>
+<Link
+href={"/#where"}
+className={`w-element ccsz1cw chm4zy5 c1ouinbj c1e3et87 c1izoes8 c1pazqdt c1in4j3g cinicg8 c6ampsg cgwish1 cwb9fzk c1kp9tpa cjbqlue c69i0qc c14ecruh c8a0f18 cf7qvpa`}>
+<span
+className={`w-element`}>
+{"Where?"}
+</span>
+</Link>
+<Link
+href={"/rsvp"}
+className={`w-element ccsz1cw chm4zy5 c1ouinbj c1e3et87 c1izoes8 c1pazqdt c1in4j3g cinicg8 c6ampsg cgwish1 cwb9fzk c1kp9tpa cjbqlue c69i0qc c14ecruh c8a0f18 cf7qvpa`}>
+<span
+className={`w-element`}>
+{"RSVP"}
+</span>
+</Link>
+</div>
+</div>
+</Fragment_1>
+</Slot>
+<div
+className={`w-element`}>
+<section
+id={"hero"}
+className={`w-element cvrbkwn c1t6zgsi c1gccmu4 c11wqf5k c1ouinbj`}>
+<div
+className={`w-element cw035ua cbu9hsu c18gcn3d c1pvm84p c1ouinbj c1nlsp8h c2c8m88 c1gccmu4 chapbom c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq c1nkt75d cc2w75a cm9w0fj`}>
+<HtmlEmbed
+code={"<svg width=\"508mm\" height=\"285.75mm\" viewBox=\"0 0 508 285.75\" version=\"1.1\" id=\"athul_saira_svg\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:svg=\"http://www.w3.org/2000/svg\">\n        <defs id=\"defs1\"></defs>\n        <g id=\"layer1\" style=\"display:inline\" transform=\"translate(-247.19337,307.39227)\">\n          <path id=\"athul_saira_svg_path\" style=\"fill: currentcolor; stroke: ghostwhite;\" d=\"m 626.22029,-222.47605 c -1.43577,0 -4.61215,1.01404 -7.05965,2.25428 -2.4475,1.2403 -6.86084,4.71104 -9.80679,7.71247 -3.73503,3.80532 -6.27259,7.45795 -8.38281,12.06754 -2.206,4.81889 -3.15619,8.3296 -3.5081,12.95425 -0.2698,3.54615 -0.0111,8.79335 0.58807,11.89833 2.29346,11.89597 8.12537,17.40606 7.39253,20.39024 -1.09784,2.58277 -5.76797,4.09359 -8.21639,3.67086 -1.69665,-0.29279 -4.63271,-0.76949 -6.52427,-1.05964 -1.89159,-0.29016 -4.21051,-1.29976 -5.15397,-2.2432 -1.62898,-1.62888 -1.64469,-1.90093 -0.30698,-5.40361 0.77478,-2.02878 1.39566,-4.27105 1.37956,-4.98201 -0.0156,-0.7109 -0.71013,-2.10446 -1.5423,-3.09755 -0.83221,-0.99308 -2.15944,-2.0529 -2.94869,-2.35507 -0.78927,-0.30211 -1.87965,-0.10457 -2.4235,0.4392 -0.54381,0.54387 -0.98844,3.43384 -0.98844,6.42166 0,2.9878 0.40307,7.55818 0.89599,10.15724 0.66563,3.50993 1.69808,5.547 4.01387,7.91863 1.71487,1.75616 5.17897,4.27136 7.69765,5.58855 7.42872,3.88423 16.00081,2.42529 18.29223,0.49839 0.96661,-0.81283 1.23613,-2.25918 1.43599,-3.50626 0.62918,-3.92611 -0.0551,-6.56689 -0.84515,-11.89924 -1.02075,-6.89041 -2.33791,-11.73502 -4.55384,-16.74623 -1.71486,-3.8781 -3.15655,-6.05201 -3.12899,-9.33335 0.0235,-2.80485 1.25783,-4.82537 2.80812,-7.93252 1.55033,-3.10719 4.6886,-7.47373 6.97367,-9.70323 2.28505,-2.22954 5.54386,-4.87373 7.24272,-5.8761 1.69887,-1.00234 3.30701,-1.60475 3.57284,-1.33889 0.26581,0.26587 0.0298,1.32347 -0.52428,2.35045 -0.55414,1.02699 -0.90142,3.64872 -0.77115,5.82618 0.13034,2.17741 0.42404,4.26084 0.65188,4.62969 0.22794,0.36881 1.20543,0.24686 2.17292,-0.27093 0.96747,-0.51783 1.99369,-1.60959 2.28016,-2.42625 0.28643,-0.8166 1.2287,-3.08917 2.0934,-5.04949 0.86468,-1.96035 1.84545,-6.94037 2.1803,-11.06707 0.51978,-6.40639 0.39124,-7.72065 -0.88303,-8.99492 -0.82086,-0.82083 -2.66779,-1.4924 -4.10357,-1.4924 z m 39.01445,17.82069 c -0.39049,-0.02 -0.78819,0.10658 -1.04671,0.36799 -0.41363,0.41825 -1.03247,3.87375 -1.37495,7.67918 -0.49275,5.47476 -0.36586,7.08164 0.60842,7.69859 0.67719,0.42877 1.72691,0.78976 2.33287,0.79332 0.80025,0.0111 1.10218,-2.14289 1.10218,-7.86686 0,-4.72395 -0.38355,-8.1175 -0.95794,-8.47251 -0.19762,-0.12213 -0.42959,-0.18742 -0.66387,-0.19963 z m -216.4518,9.42674 c -0.38254,0 -1.08408,0.49608 -1.55893,1.10309 -0.47486,0.60704 -2.33295,5.40619 -4.12948,10.66393 -1.79655,5.25774 -4.04007,13.17551 -4.98476,17.59597 -0.94464,4.42045 -1.72203,9.2579 -1.73277,10.749 -0.0134,2.04318 -0.82791,3.38442 -3.31116,5.44428 -1.81231,1.50338 -4.56697,3.39081 -6.12113,4.19421 -1.55418,0.80342 -3.17967,1.46001 -3.61166,1.46001 -0.43211,0 -0.74917,-4.85877 -0.70551,-10.798 0.0706,-9.59152 -0.0926,-10.83268 -1.4563,-11.10035 -0.94725,-0.18586 -1.8655,0.48414 -2.39762,1.74851 -0.47435,1.1272 -1.29466,3.75976 -1.82247,5.8493 -0.69596,2.75505 -2.34759,5.18141 -6.01112,8.82941 -2.77848,2.76671 -6.51684,5.80735 -8.307,6.7573 -1.79013,0.9498 -3.5334,1.44859 -3.87425,1.10773 -0.34105,-0.34087 -0.21849,-1.51554 0.27185,-2.61026 0.61312,-1.36853 0.55932,-4.2733 -0.17185,-9.29638 -0.58506,-4.01809 -1.30948,-7.55081 -1.60982,-7.85116 -0.30033,-0.30035 -1.10108,-0.0864 -1.779,0.47619 -0.67798,0.56264 -2.13023,3.4847 -3.22702,6.49286 -1.49024,4.08693 -3.28603,6.76084 -7.1059,10.5807 -2.81156,2.81154 -5.54116,5.11235 -6.06567,5.11235 -0.52443,0 -0.96357,-1.29183 -0.96716,-2.87008 -0.006,-1.57832 -0.59005,-5.25274 -1.29358,-8.16647 -0.7036,-2.91378 -1.29411,-6.36774 -1.31021,-7.67453 -0.0178,-1.3068 -0.44632,-2.63166 -0.95332,-2.94501 -0.50698,-0.31332 -1.99706,0.12989 -3.31116,0.98474 -1.31409,0.85487 -5.69267,4.30693 -9.73002,7.67179 -4.0373,3.36478 -7.58681,5.87139 -7.88814,5.57005 -0.30148,-0.30145 -0.10597,-2.42872 0.43459,-4.72679 0.54046,-2.29804 1.1971,-5.17154 1.4591,-6.38559 0.35505,-1.64451 2.00312,-2.99196 6.46418,-5.28247 3.29337,-1.69097 7.08058,-4.18788 8.41608,-5.54879 1.65295,-1.6845 2.42814,-3.39949 2.42814,-5.37219 0,-1.59374 -0.43115,-5.25533 -0.95887,-8.13687 -0.52769,-2.88151 -1.77864,-6.57233 -2.77946,-8.20251 -1.62302,-2.64375 -2.1415,-2.91183 -4.79706,-2.48083 -1.63761,0.26569 -4.12293,1.40085 -5.52199,2.52243 -1.3991,1.12162 -3.33511,3.62849 -4.30238,5.57096 -0.96724,1.94248 -2.27627,5.01583 -2.90892,6.82943 -0.97642,2.79929 -1.75742,3.48655 -5.17152,4.55204 -2.21189,0.6903 -4.93962,1.46054 -6.06198,1.7115 -1.19219,0.26641 -2.21688,-0.004 -2.46415,-0.64817 -0.23298,-0.607 -0.0456,-2.09876 0.41701,-3.31486 0.62241,-1.63713 0.36735,-3.68224 -0.9829,-7.87796 -1.00301,-3.11677 -2.107,-6.46106 -2.45308,-7.43228 -0.54683,-1.5347 -0.81521,-1.32572 -2.04809,1.59686 -0.78027,1.84955 -2.72044,7.28608 -4.31161,12.08139 l -2.89323,8.71846 -5.29729,1.69489 -5.29727,1.69397 0.28107,4.2663 c 0.15522,2.3463 0.8846,5.4314 1.62091,6.85531 0.73633,1.42391 2.11882,2.79277 3.07167,3.04206 1.57793,0.41261 1.68167,0.97435 1.15859,6.29868 -0.42591,4.33485 -0.17653,7.21221 0.9644,11.13272 0.84638,2.90786 1.97603,5.98759 2.51041,6.8433 0.5344,0.85568 1.4716,1.55522 2.08324,1.55522 0.75398,0 1.10665,-1.49225 1.10308,-4.63523 -0.004,-2.54956 0.66619,-8.89055 1.49053,-14.09155 l 1.49793,-9.45634 4.75636,-1.93067 c 2.61557,-1.06159 6.16892,-2.08492 7.89645,-2.27555 l 3.14104,-0.34675 -0.63153,10.57979 c -0.43734,7.3271 -0.29389,12.15414 0.46693,15.70508 0.60416,2.81974 1.92898,6.05333 2.94406,7.1854 l 1.8456,2.05825 2.44384,-2.9265 c 3.57443,-4.72403 7.10308,-9.21424 11.43692,-13.04209 1.91347,-1.69007 5.97238,-6.12936 6.33842,-4.29958 0.2228,1.11357 0.90065,5.18825 1.50718,9.05503 0.85899,5.47653 1.58493,7.47716 3.28249,9.05042 1.19864,1.11087 2.62508,2.01942 3.16967,2.01942 0.5446,0 2.87053,-1.8015 5.16877,-4.00373 2.29819,-2.20225 1.75397,-3.32773 2.94684,-4.76466 0.84667,-1.01992 2.00014,-2.17602 2.93943,-2.6787 0.93936,-0.50272 1.86872,-0.91356 2.06565,-0.91356 0.19696,0 0.89204,1.61636 1.54417,3.59226 0.73918,2.23975 2.03949,4.02283 3.45263,4.73508 1.24671,0.62862 2.86284,0.93876 3.59132,0.6898 0.7284,-0.24902 1.52215,-0.71073 1.76512,-1.02545 0.24283,-0.31477 1.83247,-1.52219 3.53214,-2.68332 1.69967,-1.16113 3.92574,-2.92983 4.94687,-3.93064 1.02112,-1.00075 2.35504,-2.76691 2.96439,-3.92512 0.8733,-1.65995 1.27212,-1.84701 1.88257,-0.88305 0.42598,0.67265 0.78355,2.21637 0.79427,3.43044 0.0134,1.49587 0.96008,2.847 2.93762,4.19324 1.60504,1.09268 3.5889,1.98707 4.40871,1.98707 0.8198,0 2.28534,-0.7948 3.25658,-1.76605 0.97126,-0.97125 2.02121,-1.76609 2.33288,-1.76609 0.31162,0 1.71832,-1.20543 3.12621,-2.6787 1.40792,-1.47324 2.90611,-2.46411 3.32965,-2.20249 0.42345,0.26172 1.03882,2.06852 1.36754,4.0148 0.3762,2.2267 1.26024,3.89293 2.38467,4.4947 1.35273,0.724 2.46033,0.63 4.55665,-0.38742 1.52295,-0.73912 4.15976,-1.93879 5.85945,-2.66573 1.69973,-0.72698 4.186,-1.59485 5.52568,-1.92883 1.47004,-0.36649 2.62744,-1.3713 2.9191,-2.53353 0.26552,-1.05918 0.36137,-4.29284 0.21272,-7.18634 -0.25703,-5.00266 -0.37928,-5.2546 -2.491,-5.12344 -1.2214,0.0757 -4.47314,1.16845 -7.22703,2.4281 -2.75393,1.25968 -5.62877,2.29037 -6.38834,2.29037 -0.75957,0 -1.38143,-0.36696 -1.38143,-0.81556 0,-0.44856 0.44188,-2.93173 0.98105,-5.51827 0.53922,-2.58658 1.30608,-5.49753 1.70504,-6.4688 0.39893,-0.97123 0.91891,-2.95739 1.15487,-4.41425 0.23596,-1.45686 0.84157,-4.03961 1.3463,-5.73928 0.50479,-1.69965 1.56589,-5.67284 2.35784,-8.82941 1.07585,-4.28782 1.28844,-7.58136 0.84143,-13.02363 -0.32908,-4.00639 -0.91099,-7.28433 -1.29358,-7.28433 z m -147.20334,2.19881 c -0.35573,0.0111 -0.66727,0.2955 -1.1188,0.83956 -0.60122,0.72441 -0.92473,1.82265 -0.71844,2.44106 0.20606,0.61843 -0.9813,1.84299 -1.60056,2.6787 -1.46557,1.97754 -3.31395,3.63982 -4.96163,5.46835 -1.96935,2.18551 -3.99169,4.32646 -5.8863,6.57699 -1.57931,1.87595 -3.05295,3.83827 -4.56497,5.76885 -2.0637,2.63501 -4.18035,5.23072 -6.15074,7.93622 -2.43382,3.34178 -4.69877,6.80325 -6.99861,10.2386 -1.85995,2.77817 -3.70726,5.56624 -5.49979,8.38835 -1.32682,2.08885 -2.53003,4.25469 -3.88906,6.32273 -0.86677,1.31897 -1.82195,2.5784 -2.71752,3.87796 -0.87529,1.27005 -1.82661,2.49417 -2.59643,3.8308 -0.46108,0.80056 -1.23051,1.38771 -1.20385,2.49562 0.0281,1.10793 1.12088,4.20009 2.4281,6.87102 1.30863,2.6739 3.06928,4.98427 3.91866,5.14101 1.0213,0.18874 1.86056,-0.55694 2.48265,-2.20711 0.51681,-1.37084 1.45346,-3.48591 2.08139,-4.69999 0.62795,-1.21402 2.63348,-4.98808 4.45677,-8.38744 1.82324,-3.39938 3.461,-6.33737 3.63939,-6.52797 0.17831,-0.19051 0.92812,0.15609 1.66714,0.7693 1.11042,0.92159 1.84227,0.73658 4.21545,-1.06334 1.5794,-1.19786 5.25548,-3.07206 8.16924,-4.1646 2.91372,-1.09254 7.18421,-2.32094 9.4896,-2.73047 2.30542,-0.40946 4.54546,-0.96373 4.97739,-1.23071 0.43188,-0.26695 1.18527,0.006 1.67454,0.60935 0.48925,0.6017 1.11724,6.6087 1.39526,13.34909 0.33991,8.23847 0.9975,13.59235 2.00649,16.33474 0.82542,2.24368 2.28744,4.96115 3.24826,6.03887 0.9609,1.07766 2.12596,1.72448 2.58993,1.43782 0.46385,-0.28673 0.59184,-1.765 0.28387,-3.28435 -0.30796,-1.51939 -0.73878,-9.9144 -0.95701,-18.6556 -0.21827,-8.74123 -0.62472,-21.05822 -0.90338,-27.37132 -0.27878,-6.31309 -0.85284,-14.85515 -1.27601,-18.98294 -0.42322,-4.12781 -1.57829,-9.31856 -2.56681,-11.53403 -0.98846,-2.2155 -2.54912,-4.70853 -3.46836,-5.54044 -0.78249,-0.70817 -1.24265,-1.04699 -1.64586,-1.03468 z m 421.18092,3.77901 c -0.87318,0.004 -1.98273,0.22215 -2.80072,0.57513 -2.86728,1.23725 -2.8494,2.02663 -3.25754,2.33566 -0.55844,0.42284 -2.89409,2.26475 -4.87565,5.03189 -1.98153,2.76724 -4.16309,7.03089 -4.84791,9.47484 -0.68469,2.44399 -1.31204,7.02108 -1.39435,10.172 -0.0821,3.15098 -0.10459,6.83817 -0.0491,8.19329 0.0558,1.35508 1.07546,3.43702 2.26537,4.62692 1.18987,1.18985 2.9822,2.16364 3.98336,2.16364 1.00119,0 3.39828,-0.99608 5.32688,-2.21357 1.92859,-1.21749 4.4,-3.59281 5.49147,-5.27788 1.09149,-1.6851 2.47958,-3.06906 3.08553,-3.07444 0.65169,-0.006 1.11566,1.15902 1.13176,2.85346 0.0156,1.57547 0.85447,3.85605 1.86316,5.06797 1.54612,1.8575 2.54465,2.18833 6.36063,2.10817 2.6954,-0.0566 6.22422,-0.89974 8.72217,-2.08414 2.5796,-1.22308 4.3773,-2.71709 4.66945,-3.88073 0.26127,-1.04083 0.35667,-4.83133 0.21183,-8.42257 -0.16009,-3.97454 -0.66474,-6.66174 -1.28987,-6.86826 -0.56478,-0.18653 -1.27778,0.44989 -1.58391,1.4147 -0.35237,1.11009 -2.07855,2.24205 -4.70181,3.0837 -2.27992,0.73145 -5.13673,1.45146 -6.34862,1.59962 l -2.20343,0.27 -0.0415,-10.07677 c -0.0249,-6.10025 -0.39936,-10.19558 -0.94961,-10.37912 -0.49983,-0.16655 -1.3751,0.7214 -1.94545,1.97318 -0.57033,1.25179 -1.43224,2.03216 -1.91495,1.73372 -0.48271,-0.29833 -0.87747,-1.68309 -0.87747,-3.07723 0,-1.3941 -0.37401,-3.51863 -0.83126,-4.72122 -0.45723,-1.20266 -1.54762,-2.34317 -2.42349,-2.53446 -0.21895,-0.0478 -0.48378,-0.0696 -0.77487,-0.0675 z m -202.64129,1.53491 c -0.39511,0.02 -0.80079,0.0686 -1.19648,0.14788 -1.64785,0.32956 -4.6373,2.31976 -7.20944,4.79888 -2.41691,2.32949 -5.02417,5.74183 -5.79383,7.58394 -1.06393,2.5465 -1.25826,4.83684 -0.81183,9.55342 0.32287,3.41191 0.99941,7.77791 1.50346,9.7023 0.9038,3.45037 0.86166,3.54805 -3.05039,7.06335 -2.18183,1.96056 -4.68223,4.15007 -5.5562,4.86548 -0.874,0.71551 -2.79409,1.90776 -4.26723,2.64911 -2.51589,1.26625 -2.66142,1.61513 -2.39576,5.74851 0.15543,2.42024 0.70309,5.20117 1.21775,6.18031 0.51465,0.97919 1.37324,2.07222 1.90755,2.42906 0.53437,0.35683 2.15387,0.65667 3.59873,0.66205 1.44485,0.006 5.41806,-1.06607 8.82942,-2.38559 3.41142,-1.3196 6.40158,-2.65934 6.6445,-2.97736 0.24281,-0.31821 2.48454,-1.67755 4.98199,-3.02083 l 4.54092,-2.4429 7.44524,3.65422 c 4.09492,2.00975 8.27106,3.65418 9.28065,3.65418 h 1.8354 l -1.75404,-4.63524 c -0.96478,-2.54955 -2.53201,-5.90006 -3.4822,-7.44526 l -1.72723,-2.80905 6.32086,-3.7559 6.32178,-3.75496 -0.4059,-6.31348 c -0.22288,-3.47242 -0.70396,-6.7978 -1.06983,-7.38976 -0.50347,-0.81473 -1.23548,-0.70165 -3.01158,0.46508 -1.29051,0.84782 -4.53201,2.77684 -7.20297,4.28666 -2.67094,1.50984 -5.47106,2.97978 -6.22285,3.26677 -1.17375,0.44793 -1.36042,-0.61736 -1.32409,-7.54972 0.032,-6.10459 -0.45483,-9.61502 -1.99815,-14.40873 -1.12227,-3.48591 -2.55609,-6.76578 -3.18541,-7.28804 -0.4824,-0.40033 -1.57742,-0.59538 -2.76284,-0.53444 z m 168.38415,2.25708 c -0.81095,0 -2.64236,1.2791 -4.06935,2.8414 -1.89771,2.07771 -2.59455,3.72091 -2.59455,6.1193 0,2.70566 -0.88361,4.32734 -5.05409,9.27789 -2.77984,3.2997 -5.36504,6.13405 -5.74482,6.29867 -0.37978,0.16431 -1.24958,0.85842 -1.93342,1.54231 -0.68383,0.68383 -1.44553,1.24364 -1.69304,1.24364 -0.24746,0 -0.29767,-5.15631 -0.1119,-11.45819 0.26906,-9.11894 0.0985,-11.45727 -0.83495,-11.45727 -0.64512,0 -1.78681,1.28814 -2.53723,2.86363 -0.75035,1.57547 -2.10095,3.65835 -3.00138,4.62786 -0.90039,0.96951 -2.86105,3.54766 -4.35695,5.72909 -1.49582,2.18141 -4.75624,5.87031 -7.24549,8.19788 -2.48918,2.32756 -4.93731,3.97764 -5.43969,3.66715 -0.61756,-0.38166 -0.58261,-0.96185 0.10636,-1.79197 0.71302,-0.85913 0.82951,-3.61433 0.38927,-9.17617 -0.55328,-6.99067 -0.82964,-7.94825 -2.29773,-7.94825 -1.31008,0 -1.66991,-0.64323 -1.66991,-2.99028 0,-1.91393 -0.50126,-3.1833 -1.39343,-3.52568 -0.76681,-0.29415 -2.37376,-0.53535 -3.57006,-0.53535 -1.1963,0 -3.29939,0.58174 -4.67409,1.29261 -1.3747,0.7109 -4.09372,3.10369 -6.04255,5.31766 -1.94878,2.21398 -4.37448,5.79302 -5.38975,7.95286 -1.50618,3.20402 -1.8295,5.51063 -1.75775,12.52986 0.0484,4.73171 0.34599,9.46962 0.66112,10.5289 0.31521,1.05922 1.46265,2.94341 2.55017,4.18678 1.08751,1.24338 2.79564,2.26077 3.79567,2.26077 v -9.1e-4 c 1.04198,0 3.714,-1.9753 6.25893,-4.62693 2.44258,-2.54493 4.81386,-5.32183 5.26952,-6.17014 0.45574,-0.84833 1.17972,-1.5423 1.6089,-1.5423 0.42924,0 1.05375,1.2891 1.38695,2.86453 0.33321,1.57551 1.42459,3.75721 2.42628,4.84791 1.00173,1.0907 2.46851,1.98338 3.25935,1.98338 0.79085,0 2.76095,-0.97699 4.37819,-2.17014 1.6173,-1.1932 3.97572,-3.65211 5.23999,-5.46468 1.26425,-1.81258 2.99258,-4.00976 3.84095,-4.88211 0.84835,-0.87236 1.59632,-2.08108 1.66254,-2.68702 0.006,-0.0593 0.0156,-0.0937 0.0277,-0.10458 4.7e-4,-3.5e-4 0.002,-0.001 0.004,-0.002 4.9e-4,-1.9e-4 0.002,-7.9e-4 0.004,-9.1e-4 5.3e-4,-7e-5 0.002,-9.5e-4 0.004,-9.3e-4 10e-4,3e-4 0.004,0.002 0.006,0.004 0.11858,0.0862 0.41265,1.94716 0.712,4.58529 0.49429,4.35642 1.14695,6.09475 2.97364,7.92144 1.99006,1.99008 2.56989,2.17357 3.87334,1.22423 0.84309,-0.61401 2.52456,-1.7553 3.73647,-2.5363 1.21188,-0.78096 4.78157,-4.92466 7.93251,-9.20759 3.15094,-4.28299 6.05542,-7.79702 6.45495,-7.80958 0.3996,-0.0134 0.66163,1.86196 0.58254,4.16463 -0.0778,2.30257 -0.10792,6.06176 -0.0648,8.35324 0.0637,3.38823 0.47717,4.42707 2.21452,5.5654 1.95187,1.2796 2.37069,1.28013 4.84792,-9e-4 1.49121,-0.77116 2.71972,-1.88828 2.73046,-2.48175 0.0111,-0.59349 1.30007,-1.70995 2.86455,-2.48084 1.56443,-0.7709 2.96874,-2.03521 3.11975,-2.80998 0.15099,-0.77479 -0.53458,-2.21743 -1.5229,-3.20574 -0.88763,-0.88762 -2.69314,-1.38751 -4.48082,-1.66898 -3.08733,-0.48609 -2.61626,-0.45653 -3.3056,-2.69998 -0.10859,-0.35341 -0.53795,-4.64355 -0.38834,-10.18679 0.2491,-9.2058 0.12589,-10.15804 -1.4258,-10.98847 -1.21191,-0.64857 -1.57623,-1.54974 -1.27138,-3.1438 0.31955,-1.67167 0.0555,-2.23485 -1.04765,-2.23485 z m -386.70555,9.92603 c 0.0438,-0.001 0.0782,0.008 0.10078,0.0325 0.29008,0.29008 0.57216,4.59136 0.62689,9.55898 l 0.1,9.03191 -6.62231,1.09758 c -3.64216,0.60339 -7.91323,1.36328 -9.49147,1.68931 l -9.1e-4,9.2e-4 c -1.57824,0.32561 -2.86917,0.32742 -2.86917,0.004 0,-0.32379 2.14603,-3.44821 4.76931,-6.94316 2.62328,-3.4949 6.61228,-8.29282 8.86456,-10.66112 2.07633,-2.18331 4.00634,-3.79859 4.52243,-3.81049 z m 421.24656,1.53585 c 0.60597,-0.002 1.10218,0.65152 1.10218,1.45168 0,0.80016 -2.19086,3.57606 -4.86826,6.16922 -2.67731,2.59308 -5.45326,4.71475 -6.1692,4.71475 -0.71601,0 -1.30153,-0.4953 -1.30098,-1.10124 6.3e-4,-0.60599 0.99212,-2.25406 2.20343,-3.66252 1.21132,-1.4085 2.2025,-2.90203 2.2025,-3.31855 0,-0.41644 1.28909,-1.54339 2.86456,-2.50393 1.57549,-0.96061 3.35983,-1.74775 3.96577,-1.74941 z m -201.82576,1.9214 c 0.42538,-0.0178 0.75683,0.0402 0.89228,0.17564 0.27088,0.27077 -1.44744,3.88151 -3.81878,8.02407 -2.37132,4.14252 -4.82109,7.53408 -5.44337,7.53491 v -9.3e-4 c -0.62228,0.001 -1.36116,-0.59567 -1.64217,-1.32779 -0.28089,-0.73204 -0.25979,-2.66598 0.0462,-4.29774 0.30622,-1.6323 1.92891,-4.3803 3.60703,-6.10821 1.6776,-1.72732 3.88433,-3.4054 4.90432,-3.7291 0.50999,-0.16165 1.02907,-0.25348 1.45445,-0.27089 z m -159.63238,0.26259 c 0.21427,0 0.38928,0.39743 0.38928,0.88304 0,0.48562 -0.42053,0.88302 -0.93482,0.88302 -0.51425,0 -0.6893,-0.3974 -0.3893,-0.88302 0.30013,-0.48561 0.72057,-0.88304 0.93484,-0.88304 z m 271.11673,6.64634 c 0.36353,-0.0111 0.6611,0.4346 0.6611,0.99029 0,0.55565 -1.87686,3.03492 -4.17012,5.50904 -2.29321,2.47402 -4.47408,4.63011 -4.84698,4.79149 -0.37296,0.16165 -0.67872,-0.25678 -0.67872,-0.93018 0,-0.67333 1.00368,-2.59014 2.22932,-4.25981 1.22561,-1.66964 3.10894,-3.721 4.18587,-4.55852 1.07696,-0.83759 2.25599,-1.53159 2.61953,-1.54231 z\"></path>\n        </g>\n      </svg>"}
+className={`w-html-embed c11f7idv c1nkt75d c1gccmu4 chapbom c1b1csm9 c1ouinbj c1s3c3ab cs9y9xt cbtkumm chkplf5 c13ykowk chxx1yu clpk4be c69i0qc c14ecruh c15xc4k3`} />
+<Image
+src={"/assets/BIN08592_(Large)_YL2z_3nASVlV3lfC_ILL2.png"}
+alt={""}
+loading={"eager"}
+className={`w-image c1rf91ed cab8q4w c66ciae c1nv6soj c1sxgvi7 c2waocn c1b1csm9 c195abid c1l4dbmh c1j0mwhx ct0l16z c14ecruh c15x8c1e ccdszm8 c1h4xx2m c1v06he2 c1k3joh1 c4c60qv c2n8rz7 c17w1zt0 ${"photo"}`} />
+</div>
+</section>
+<section
+id={"about"}
+className={`w-element cvrbkwn c1t6zgsi ctfrzvv c1iw0j72`}>
+<div
+className={`w-element cw035ua cbu9hsu c1ijbwzg c69xxeb c18gcn3d c1pvm84p c1ouinbj c1nlsp8h c2c8m88 c1gccmu4 chapbom c60sjfu c13if7hh c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq c5pqrte c1wxkkyu c1o3qny5 cpyh00p c1etcr5l c13f4zx2 c12kndq9 cm9w0fj c7a23im c1dtkmob ${"drag-container"}`}>
+<Image
+src={"/assets/we-are-getting-married_pfPrQzf2HufKNhtwJRAO1.svg"}
+width={1153}
+height={273}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c97uyi3 c9f87mr c1m062pt cs1solz`} />
+<Image
+src={"/assets/created_this_space_1_GR6N5wJGktNs9o8XWlWFG.svg"}
+width={1596}
+height={429}
+alt={""}
+className={`w-image chkplf5 c15x8c1e cdpfztj c14rvk7b`} />
+<Image
+src={"/assets/having-you-with-us_1_MN33Z-x4GMNwK2027ygxo.svg"}
+width={1544}
+height={747}
+alt={""}
+className={`w-image chkplf5 c15x8c1e cdpfztj c14rvk7b`} />
+<Image
+src={"/assets/with-love_0E1vc-clRFimY3eekGiid.svg"}
+width={707}
+height={371}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c1rxibp3 c1j5yc2y cjk5g3f c1u1exqg cl3j33v c13e98xq c1hktk6p`} />
+<Image
+src={"/assets/BIN08539_(Large)_XxYGI_Kk9JJN76x4Hf48T.png"}
+width={720}
+height={1080}
+alt={""}
+loading={"eager"}
+className={`w-image c1rf91ed c11y1wf1 c66ciae c1nv6soj c10kuzu8 cs9y9xt c1b1csm9 c195abid c1l4dbmh c1j0mwhx ct0l16z c14ecruh c15x8c1e c1usmxh6 c1klh96i ccdszm8 c6748io c1v06he2 c1k3joh1 c4c60qv c2n8rz7 czvafjp c1spj5e1 c17w1zt0 ckph4jc c1i4u7gk cdocet0 c9hd46r c1t2ydr0 ${"photo"}`} />
+</div>
+</section>
+<section
+id={"when"}
+className={`w-element cvrbkwn c1t6zgsi`}>
+<div
+className={`w-element cw035ua cbu9hsu c1ijbwzg c69xxeb c18gcn3d c1pvm84p c1ouinbj c15kd2l9 c14zma00 c1gccmu4 chapbom c1bmrpc8 cx452xf c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq cm9w0fj`}>
+<Image
+src={"/assets/when_NUc6zl8wmyQz36R1fpV7S.svg"}
+width={615}
+height={253}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c1o93fi2`} />
+</div>
+<div
+className={`w-element cw035ua cbu9hsu c18gcn3d c1pvm84p c1ouinbj c1nlsp8h c2c8m88 c1gccmu4 chapbom c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq c98sxda c14zyj11 c1oydj2s ctkv1s7 c56bmm2 cc2w75a cm9w0fj`}>
+<Image
+src={"/assets/date_21UBwyHbJYJM8m4T6e_eF.svg"}
+width={1878}
+height={457}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c1f1p6qs`} />
+<div
+className={`w-element c103nqd7 c1yjy8po c1tm12w3 c3kzagr c18gcn3d c1pvm84p c14yxs4l cb5n39m c1eq9k7w c1gccmu4 chapbom cc13vnp cx452xf cyyeyec c1izoes8 c1j5yc2y c1foqghq c1klvp6v c1ktglmi c9053yj ctmwuik c1tha02j cn2ilt5 cm9w0fj c1w31l43`}>
+<div
+className={`w-element c1mdd5wq c10j5qx9 c9053yj c1ngz0j1 c1gccmu4 c1foopxb c1mvbqfz chapbom c14yxs4l cn2ilt5`}>
+<p
+id={"days"}
+className={`w-element c47oduo c4eruak c1ambhic c19zyo21 c2zev73`}>
+{"00"}
+</p>
+<p
+className={`w-element c2zev73 c19aryve c1puogx6 c1ouinbj c1foopxb c1mvbqfz c14tb0sc`}>
+{"Days"}
+</p>
+</div>
+<div
+className={`w-element c1mdd5wq c10j5qx9 c9053yj c1ngz0j1 c1gccmu4 c1foopxb c1mvbqfz chapbom c14yxs4l cn2ilt5`}>
+<p
+id={"hours"}
+className={`w-element c47oduo c4eruak c1ambhic c19zyo21 c2zev73`}>
+{"00"}
+</p>
+<p
+className={`w-element c2zev73 c19aryve c1puogx6 c1ouinbj c1foopxb c1mvbqfz c14tb0sc`}>
+{"Hours"}
+</p>
+</div>
+<div
+className={`w-element c1mdd5wq c10j5qx9 c9053yj c1ngz0j1 c1gccmu4 c1foopxb c1mvbqfz chapbom c14yxs4l cn2ilt5`}>
+<p
+id={"minutes"}
+className={`w-element c47oduo c4eruak c1ambhic c19zyo21 c2zev73`}>
+{"00"}
+</p>
+<p
+className={`w-element c2zev73 c19aryve c1puogx6 c1ouinbj c1foopxb c1mvbqfz c14tb0sc`}>
+{"Minutes"}
+</p>
+</div>
+<div
+className={`w-element c1mdd5wq c10j5qx9 c9053yj c1ngz0j1 c1gccmu4 c1foopxb c1mvbqfz chapbom c14yxs4l cn2ilt5`}>
+<p
+id={"seconds"}
+className={`w-element c47oduo c4eruak c1ambhic c19zyo21 c2zev73 c1ouinbj c1foopxb c1mvbqfz`}>
+{"00"}
+</p>
+<p
+className={`w-element c2zev73 c19aryve c1puogx6 c1ouinbj c1foopxb c1mvbqfz c14tb0sc`}>
+{"Seconds"}
+</p>
+</div>
+<HtmlEmbed
+code={"<script>\n  const targetDate = new Date('2026-08-06T10:30:00').getTime();\nfunction updateCountdown() {\n    let now = new Date().getTime();\n    let difference = targetDate - now;\n\n    let days = Math.floor(difference / (1000 * 60 * 60 * 24));\n    let hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n    let minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n    let seconds = Math.floor((difference % (1000 * 60)) / 1000);\n\n    document.getElementById(\"days\").innerHTML = days.toString().padStart(2, '0');\n    document.getElementById(\"hours\").innerHTML = hours.toString().padStart(2, '0');\n    document.getElementById(\"minutes\").innerHTML = minutes.toString().padStart(2, '0');\n    document.getElementById(\"seconds\").innerHTML = seconds.toString().padStart(2, '0');\n}\nsetInterval(updateCountdown, 1000);\n</script>"}
+className={`w-html-embed`} />
+</div>
+</div>
+</section>
+<section
+id={"where"}
+className={`w-element cvrbkwn c1t6zgsi`}>
+<div
+className={`w-element cw035ua cbu9hsu c18gcn3d c1pvm84p c1ouinbj c1nlsp8h c2c8m88 c1gccmu4 c4pk74x c1dkagqf c1izoes8 c1j5yc2y c1foqghq cfbed3x c1nkt75d c98sxda c14zyj11 c1oydj2s ctkv1s7 cc2w75a cm9w0fj`}>
+<Image
+src={"/assets/where_f-9h9lthKujvs-38EA_HI.svg"}
+width={731}
+height={346}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c1g6o6cm c1o93fi2`} />
+<div
+className={`w-element cw035ua cbu9hsu c16gmceh c1nd08fy c18gcn3d c1pvm84p c1ouinbj c15kd2l9 c14zma00 c1c37sgm c4pk74x cc13vnp cx452xf c1dkagqf c1izoes8 c1j5yc2y c1foqghq c98sxda c14zyj11 c1oydj2s ctkv1s7 c56bmm2 cm9w0fj`}>
+<div
+className={`w-element cg4novz`}>
+<p
+className={`w-element c1elflg c23ukjc`}>
+{"Jeevz Square Convention Centre"}
+</p>
+<p
+className={`w-element c1gpx5d6`}>
+{"Kochi - Salem Highway NH 544,"}
+<br />
+{"Kallidukku, Pattikkad,"}
+<br />
+{"Thrissur - 680652"}
+{""}
+<br />
+{""}
+{""}
+<br />
+{""}
+<b
+className={`w-element`}>
+{"Instructions: "}
+</b>
+{""}
+<br />
+{""}
+<i
+className={`w-element`}>
+{"(NH544 EKM direction)"}
+</i>
+{""}
+<br />
+{""}
+{"Take the first exit after Lalys, Pattikkad."}
+</p>
+</div>
+<div
+className={`w-element c1gachpy c4fxggp cjconsg c6b799s c123s2ze c14lpynu cja0ckp`}>
+<HtmlEmbed
+code={"<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.2701058221865!2d76.33794257531555!3d10.558023889577761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7e5405cc19945%3A0x78028b48378b2566!2sJeevz%20Square!5e0!3m2!1sen!2sin!4v1783400391442!5m2!1sen!2sin\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\"></iframe>"}
+className={`w-html-embed c1cl9s4d`} />
+</div>
+</div>
+</div>
+</section>
+<section
+id={"rsvp"}
+className={`w-element cvrbkwn c1t6zgsi c1ouinbj c1gccmu4 chapbom ${""}`}>
+<div
+className={`w-element cw035ua cbu9hsu c18gcn3d c199c3rs c1ouinbj c1nlsp8h c2c8m88 c1gccmu4 chapbom c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq c98sxda c14zyj11 c1oydj2s ctkv1s7 c56bmm2 c1czkpgx c1l9sygs cc2w75a cm9w0fj`}>
+<Link
+type={"button"}
+href={"/rsvp"}
+className={`w-element chggea7 cz6ukm5 csfuozh cs1lpry c7gg5xc c8edjd4 c1l8ll9m c1sz0ott cliufhc c1i3tgfx cgy8not c1myvxhx c1o8q6ut c874706 c1s025d c69i0qc c14ecruh c1y02a58 ccsz1cw chm4zy5 c10pzdoi c44z1gf cvylmgq ctck44n cod9oy6`}>
+<Image
+src={"/assets/rsvp_8LuzYf0kIzNCVJ0W-kXRB.svg"}
+width={445}
+height={275}
+alt={""}
+className={`w-image chkplf5 c15x8c1e c2isk5n`} />
+</Link>
+</div>
+</section>
+</div>
+<Slot>
+<Fragment_1>
+<div
+id={"footer"}
+className={`w-element cw035ua cbu9hsu c18gcn3d c1pvm84p c1ouinbj c1l1ba63 c1zl694 c1gccmu4 chapbom c1dkagqf c1ngz0j1 c1j5yc2y c1foqghq cc2w75a cm9w0fj`}>
+<p
+className={`w-element cbd5ppj c19zyo21 c1ambhic c1a80d2r c1ija278 ce3kzyr c1hcm15d c1fnk1w9 clmvqps cxba061 chwfpdo`}>
+{"made with❤️‍🔥 by 👨‍💻👩‍⚕️"}
+</p>
+</div>
+</Fragment_1>
+</Slot>
+<HtmlEmbed
+clientOnly={true}
+code={"<link rel=\"stylesheet\" href=\"https://unpkg.com/lenis@1.3.25/dist/lenis.css\">\n<script src=\"https://unpkg.com/lenis@1.3.25/dist/lenis.min.js\"></script> \n<script>new Lenis({ autoRaf: true, autoToggle: true, anchors: true, allowNestedScroll: true, naiveDimensions: true, stopInertiaOnNavigate: true })</script>"}
+className={`w-html-embed`} />
+<HtmlEmbed
+code={"<script>\ndocument.querySelectorAll(\".photo\").forEach(img => {\n    img.addEventListener(\"contextmenu\", e => e.preventDefault());\n    img.addEventListener(\"dragstart\", e => e.preventDefault());\n});   \n</script>"}
+clientOnly={true}
+className={`w-html-embed`} />
+</Body>
+}
+
+
+      export { Page }
+    
