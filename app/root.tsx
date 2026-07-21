@@ -8,6 +8,7 @@ import {
   Outlet,
   useMatches,
 } from "react-router";
+import { Analytics } from "@vercel/analytics/react";
 import { redirectRequest } from "./redirect-url";
 // @todo think about how to make __generated__ typeable
 // @ts-ignore
@@ -59,6 +60,7 @@ const Root = () => {
         <CustomCode />
       </head>
       <Outlet />
+      <Analytics />
     </html>
   );
 };
